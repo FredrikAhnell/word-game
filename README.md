@@ -13,11 +13,11 @@ A word-guessing game built with React. I built this to practice managing game st
 
 ```
 src/
- ├── components/    # Letter, LetterRow, and Keyboard
- ├── constants/     # SETTINGS and WORD_LIST
+ ├── components/    # Letter, LetterRow, Keyboard
+ ├── constants/     # SETTINGS, WORD_LIST
  ├── hooks/         # keyboardUse
  ├── utils/         # gameLogic
- └── App.jsx        # Main Game Logic + Layout
+ └── App.jsx        # Main entry point
 ```
 
 #### Install dependencies:
