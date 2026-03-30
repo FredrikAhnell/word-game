@@ -20,12 +20,14 @@ src/
  └── App.jsx        # Main Game Logic + Layout
 ```
 
-#### Run Project:
+#### Install dependencies:
 
 ```bash
-# Install dependencies
 npm install
+```
 
-# Start development server
+#### Start development server:
+
+```bash
 npm run dev
 ```
