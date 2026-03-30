@@ -35,15 +35,15 @@ export function keyboardUse(solution, wordLength, maxGuesses) {
   }, [guesses, solution]);
 
   useEffect(() => {
-    const onKeyDown = (e) => {
+    const onKeyUp = (e) => {
       if (e.key === "Enter") {
         e.preventDefault();
       }
       handleInput(e.key);
     };
 
-    window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
+    window.addEventListener("keyup", onKeyUp);
+    return () => window.removeEventListener("keyup", onKeyUp);
   }, [handleInput]);
 
   return { guesses, currentGuess, winner, resetGame, handleInput };
